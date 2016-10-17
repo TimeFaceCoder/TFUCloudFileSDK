@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A24EBBCA1D065FE7000114D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBBC91D065FE7000114D7 /* main.m */; };
+		A24EBBCD1D065FE7000114D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBBCC1D065FE7000114D7 /* AppDelegate.m */; };
+		A24EBBD01D065FE7000114D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBBCF1D065FE7000114D7 /* ViewController.m */; };
+		A24EBBD31D065FE7000114D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24EBBD11D065FE7000114D7 /* Main.storyboard */; };
+		A24EBBD51D065FE7000114D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24EBBD41D065FE7000114D7 /* Assets.xcassets */; };
+		A24EBBD81D065FE7000114D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24EBBD61D065FE7000114D7 /* LaunchScreen.storyboard */; };
+		A24EBBE31D065FE7000114D7 /* TFUCloudFileSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBBE21D065FE7000114D7 /* TFUCloudFileSDKTests.m */; };
+		A24EBBEE1D065FE7000114D7 /* TFUCloudFileSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBBED1D065FE7000114D7 /* TFUCloudFileSDKUITests.m */; };
+		A24EBC131D06605F000114D7 /* UCloudFileSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBC0B1D06605E000114D7 /* UCloudFileSDK.m */; };
+		A24EBC141D06605F000114D7 /* UFileAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBC0D1D06605E000114D7 /* UFileAPI.m */; };
+		A24EBC151D06605F000114D7 /* UFileAPIUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBC0F1D06605E000114D7 /* UFileAPIUtils.m */; };
+		A24EBC161D06605F000114D7 /* UFileHttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A24EBC111D06605F000114D7 /* UFileHttpManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A24EBBDF1D065FE7000114D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24EBBBD1D065FE7000114D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24EBBC41D065FE7000114D7;
+			remoteInfo = TFUCloudFileSDK;
+		};
+		A24EBBEA1D065FE7000114D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A24EBBBD1D065FE7000114D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A24EBBC41D065FE7000114D7;
+			remoteInfo = TFUCloudFileSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A24EBBC51D065FE7000114D7 /* TFUCloudFileSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFUCloudFileSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBBC91D065FE7000114D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A24EBBCB1D065FE7000114D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A24EBBCC1D065FE7000114D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A24EBBCE1D065FE7000114D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A24EBBCF1D065FE7000114D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A24EBBD21D065FE7000114D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A24EBBD41D065FE7000114D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A24EBBD71D065FE7000114D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A24EBBD91D065FE7000114D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBBDE1D065FE7000114D7 /* TFUCloudFileSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFUCloudFileSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBBE21D065FE7000114D7 /* TFUCloudFileSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFUCloudFileSDKTests.m; sourceTree = "<group>"; };
+		A24EBBE41D065FE7000114D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBBE91D065FE7000114D7 /* TFUCloudFileSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFUCloudFileSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24EBBED1D065FE7000114D7 /* TFUCloudFileSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFUCloudFileSDKUITests.m; sourceTree = "<group>"; };
+		A24EBBEF1D065FE7000114D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24EBC0A1D06605E000114D7 /* UCloudFileSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UCloudFileSDK.h; sourceTree = "<group>"; };
+		A24EBC0B1D06605E000114D7 /* UCloudFileSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UCloudFileSDK.m; sourceTree = "<group>"; };
+		A24EBC0C1D06605E000114D7 /* UFileAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFileAPI.h; sourceTree = "<group>"; };
+		A24EBC0D1D06605E000114D7 /* UFileAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFileAPI.m; sourceTree = "<group>"; };
+		A24EBC0E1D06605E000114D7 /* UFileAPIUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFileAPIUtils.h; sourceTree = "<group>"; };
+		A24EBC0F1D06605E000114D7 /* UFileAPIUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFileAPIUtils.m; sourceTree = "<group>"; };
+		A24EBC101D06605E000114D7 /* UFileHttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFileHttpManager.h; sourceTree = "<group>"; };
+		A24EBC111D06605F000114D7 /* UFileHttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFileHttpManager.m; sourceTree = "<group>"; };
+		A24EBC121D06605F000114D7 /* version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A24EBBC21D065FE7000114D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBDB1D065FE7000114D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBE61D065FE7000114D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A24EBBBC1D065FE7000114D7 = {
+			isa = PBXGroup;
+			children = (
+				A24EBBC71D065FE7000114D7 /* TFUCloudFileSDK */,
+				A24EBBE11D065FE7000114D7 /* TFUCloudFileSDKTests */,
+				A24EBBEC1D065FE7000114D7 /* TFUCloudFileSDKUITests */,
+				A24EBBC61D065FE7000114D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A24EBBC61D065FE7000114D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBBC51D065FE7000114D7 /* TFUCloudFileSDK.app */,
+				A24EBBDE1D065FE7000114D7 /* TFUCloudFileSDKTests.xctest */,
+				A24EBBE91D065FE7000114D7 /* TFUCloudFileSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A24EBBC71D065FE7000114D7 /* TFUCloudFileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBC091D06605E000114D7 /* TFUCloudFileSDK */,
+				A24EBBCB1D065FE7000114D7 /* AppDelegate.h */,
+				A24EBBCC1D065FE7000114D7 /* AppDelegate.m */,
+				A24EBBCE1D065FE7000114D7 /* ViewController.h */,
+				A24EBBCF1D065FE7000114D7 /* ViewController.m */,
+				A24EBBD11D065FE7000114D7 /* Main.storyboard */,
+				A24EBBD41D065FE7000114D7 /* Assets.xcassets */,
+				A24EBBD61D065FE7000114D7 /* LaunchScreen.storyboard */,
+				A24EBBD91D065FE7000114D7 /* Info.plist */,
+				A24EBBC81D065FE7000114D7 /* Supporting Files */,
+			);
+			path = TFUCloudFileSDK;
+			sourceTree = "<group>";
+		};
+		A24EBBC81D065FE7000114D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBBC91D065FE7000114D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A24EBBE11D065FE7000114D7 /* TFUCloudFileSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBBE21D065FE7000114D7 /* TFUCloudFileSDKTests.m */,
+				A24EBBE41D065FE7000114D7 /* Info.plist */,
+			);
+			path = TFUCloudFileSDKTests;
+			sourceTree = "<group>";
+		};
+		A24EBBEC1D065FE7000114D7 /* TFUCloudFileSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBBED1D065FE7000114D7 /* TFUCloudFileSDKUITests.m */,
+				A24EBBEF1D065FE7000114D7 /* Info.plist */,
+			);
+			path = TFUCloudFileSDKUITests;
+			sourceTree = "<group>";
+		};
+		A24EBC091D06605E000114D7 /* TFUCloudFileSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A24EBC0A1D06605E000114D7 /* UCloudFileSDK.h */,
+				A24EBC0B1D06605E000114D7 /* UCloudFileSDK.m */,
+				A24EBC0C1D06605E000114D7 /* UFileAPI.h */,
+				A24EBC0D1D06605E000114D7 /* UFileAPI.m */,
+				A24EBC0E1D06605E000114D7 /* UFileAPIUtils.h */,
+				A24EBC0F1D06605E000114D7 /* UFileAPIUtils.m */,
+				A24EBC101D06605E000114D7 /* UFileHttpManager.h */,
+				A24EBC111D06605F000114D7 /* UFileHttpManager.m */,
+				A24EBC121D06605F000114D7 /* version.h */,
+			);
+			path = TFUCloudFileSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A24EBBC41D065FE7000114D7 /* TFUCloudFileSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBBF21D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDK" */;
+			buildPhases = (
+				A24EBBC11D065FE7000114D7 /* Sources */,
+				A24EBBC21D065FE7000114D7 /* Frameworks */,
+				A24EBBC31D065FE7000114D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFUCloudFileSDK;
+			productName = TFUCloudFileSDK;
+			productReference = A24EBBC51D065FE7000114D7 /* TFUCloudFileSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A24EBBDD1D065FE7000114D7 /* TFUCloudFileSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBBF51D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDKTests" */;
+			buildPhases = (
+				A24EBBDA1D065FE7000114D7 /* Sources */,
+				A24EBBDB1D065FE7000114D7 /* Frameworks */,
+				A24EBBDC1D065FE7000114D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24EBBE01D065FE7000114D7 /* PBXTargetDependency */,
+			);
+			name = TFUCloudFileSDKTests;
+			productName = TFUCloudFileSDKTests;
+			productReference = A24EBBDE1D065FE7000114D7 /* TFUCloudFileSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A24EBBE81D065FE7000114D7 /* TFUCloudFileSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A24EBBF81D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDKUITests" */;
+			buildPhases = (
+				A24EBBE51D065FE7000114D7 /* Sources */,
+				A24EBBE61D065FE7000114D7 /* Frameworks */,
+				A24EBBE71D065FE7000114D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A24EBBEB1D065FE7000114D7 /* PBXTargetDependency */,
+			);
+			name = TFUCloudFileSDKUITests;
+			productName = TFUCloudFileSDKUITests;
+			productReference = A24EBBE91D065FE7000114D7 /* TFUCloudFileSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A24EBBBD1D065FE7000114D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "鲍振华";
+				TargetAttributes = {
+					A24EBBC41D065FE7000114D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A24EBBDD1D065FE7000114D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A24EBBC41D065FE7000114D7;
+					};
+					A24EBBE81D065FE7000114D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A24EBBC41D065FE7000114D7;
+					};
+				};
+			};
+			buildConfigurationList = A24EBBC01D065FE7000114D7 /* Build configuration list for PBXProject "TFUCloudFileSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A24EBBBC1D065FE7000114D7;
+			productRefGroup = A24EBBC61D065FE7000114D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A24EBBC41D065FE7000114D7 /* TFUCloudFileSDK */,
+				A24EBBDD1D065FE7000114D7 /* TFUCloudFileSDKTests */,
+				A24EBBE81D065FE7000114D7 /* TFUCloudFileSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A24EBBC31D065FE7000114D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBBD81D065FE7000114D7 /* LaunchScreen.storyboard in Resources */,
+				A24EBBD51D065FE7000114D7 /* Assets.xcassets in Resources */,
+				A24EBBD31D065FE7000114D7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBDC1D065FE7000114D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBE71D065FE7000114D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A24EBBC11D065FE7000114D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBC131D06605F000114D7 /* UCloudFileSDK.m in Sources */,
+				A24EBBD01D065FE7000114D7 /* ViewController.m in Sources */,
+				A24EBC161D06605F000114D7 /* UFileHttpManager.m in Sources */,
+				A24EBBCD1D065FE7000114D7 /* AppDelegate.m in Sources */,
+				A24EBBCA1D065FE7000114D7 /* main.m in Sources */,
+				A24EBC151D06605F000114D7 /* UFileAPIUtils.m in Sources */,
+				A24EBC141D06605F000114D7 /* UFileAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBDA1D065FE7000114D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBBE31D065FE7000114D7 /* TFUCloudFileSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A24EBBE51D065FE7000114D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24EBBEE1D065FE7000114D7 /* TFUCloudFileSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A24EBBE01D065FE7000114D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24EBBC41D065FE7000114D7 /* TFUCloudFileSDK */;
+			targetProxy = A24EBBDF1D065FE7000114D7 /* PBXContainerItemProxy */;
+		};
+		A24EBBEB1D065FE7000114D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A24EBBC41D065FE7000114D7 /* TFUCloudFileSDK */;
+			targetProxy = A24EBBEA1D065FE7000114D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A24EBBD11D065FE7000114D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24EBBD21D065FE7000114D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A24EBBD61D065FE7000114D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A24EBBD71D065FE7000114D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A24EBBF01D065FE7000114D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A24EBBF11D065FE7000114D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A24EBBF31D065FE7000114D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFUCloudFileSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A24EBBF41D065FE7000114D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFUCloudFileSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A24EBBF61D065FE7000114D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFUCloudFileSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFUCloudFileSDK.app/TFUCloudFileSDK";
+			};
+			name = Debug;
+		};
+		A24EBBF71D065FE7000114D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFUCloudFileSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFUCloudFileSDK.app/TFUCloudFileSDK";
+			};
+			name = Release;
+		};
+		A24EBBF91D065FE7000114D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFUCloudFileSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFUCloudFileSDK;
+			};
+			name = Debug;
+		};
+		A24EBBFA1D065FE7000114D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFUCloudFileSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = timeface.TFUCloudFileSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFUCloudFileSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A24EBBC01D065FE7000114D7 /* Build configuration list for PBXProject "TFUCloudFileSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBBF01D065FE7000114D7 /* Debug */,
+				A24EBBF11D065FE7000114D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A24EBBF21D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBBF31D065FE7000114D7 /* Debug */,
+				A24EBBF41D065FE7000114D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24EBBF51D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBBF61D065FE7000114D7 /* Debug */,
+				A24EBBF71D065FE7000114D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A24EBBF81D065FE7000114D7 /* Build configuration list for PBXNativeTarget "TFUCloudFileSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A24EBBF91D065FE7000114D7 /* Debug */,
+				A24EBBFA1D065FE7000114D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A24EBBBD1D065FE7000114D7 /* Project object */;
+}
